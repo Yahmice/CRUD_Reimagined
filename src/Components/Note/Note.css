@@ -1,0 +1,35 @@
+.Note {
+    position: relative;
+  
+    display: inline-flex;
+    width: 300px;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  
+    background-color: #ffffff;
+    border: 1px solid black;
+  
+    overflow-wrap: anywhere;
+  }
+  
+  .Note__control-delete {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    height: 40px;
+  
+    font-size: 30px;
+  
+    color: red;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-decoration: none;
+    user-select: none;
+  }
